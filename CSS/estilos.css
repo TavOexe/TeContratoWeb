@@ -6,7 +6,7 @@
 
 body {
     font-family:'Roboto Slab';
-
+    
 }
 
 .contenedor {
@@ -205,28 +205,6 @@ footer{
   }
 
 
-/*form*/
-input{
-    color: white;
-    background: transparent;
-    border: 1px solid white;
-    outline: none;
-    padding: 20px 10px;
-}
-
-input::placeholder,form-check-label{
-    color:white;
-    font-family: 'Lato', sans-serif;
-}
-input[type="submit"]:hover{
-    color: black;
-    background: white;
-    cursor: pointer;
-}
-.form-row .col{
-    padding-bottom: 10px;
-}
-
 @media screen and (max-width:900px){
     header{
         background-position: center;
@@ -300,22 +278,6 @@ input[type="submit"]:hover{
         font-size: 20px;
     }
 
-    /* BENEFICIOS */
-
-    .imagen-about-us{
-        margin-bottom: 60px;
-        width: 99%;
-    }
-
-    .sobre-nosotros .contenido-textos{
-        width: 95%;
-    }
-
-    /* Galeria */
-
-    .imagen-port{
-        width: 95%;
-    }
 
     /* Footer */
 
