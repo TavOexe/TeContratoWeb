@@ -83,6 +83,22 @@ header {
     width: 40%;
 }
 
+/*VIDEO*/
+.video-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.video-section img{
+    width: 40%;
+}
+.video-section .contenedor-textos-main{
+    width: 40%;
+}
+.video{
+    background-color: #C4C4C4;
+}
 /* SERVICIOS */
 
 
@@ -142,6 +158,7 @@ main .sobre-nosotros{
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .imagen-about-us{
@@ -173,6 +190,7 @@ main .sobre-nosotros{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
 }
+
 
 
 
